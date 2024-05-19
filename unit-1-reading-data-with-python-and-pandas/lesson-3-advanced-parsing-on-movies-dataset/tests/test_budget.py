@@ -1,2 +1,2 @@
 def test_budget():
-    assert movies.loc[:, 'budget'].min() == 105000000.0
+    assert movies.loc[:, 'budget'].min() == 105_000_000.0
